@@ -19,10 +19,10 @@ Please complete this section before the workshop, if possible.
     git submodule update --init
     ```
 - Open the repository in Visual Studio Code: **File** > **Open** (or **Open Folder**) > Browse to the checkout of `pwntester/codeql_grehack_workshop`.
-- Import the [CodeQL database](https://github.com/pwntester/codeql_grehack_workshop/releases/download/grehack-2021/codeql-java-workshop-apache-dubbo.zip) to be used in the workshop:
+- Import the [CodeQL database](https://github.com/pwntester/codeql_grehack_workshop/releases/download/grehack-2021/apache_dubbo_2.7.8_db.zip) to be used in the workshop:
   - Click the **CodeQL** rectangular icon in the left sidebar.
   - Place your mouse over **Databases**, and click the icon labelled `Download Database`.
-  - Copy and paste this URL into the box, then press **OK**/**Enter**: https://github.com/pwntester/codeql_grehack_workshop/releases/download/grehack-2021/codeql-java-workshop-apache-dubbo.zip
+  - Copy and paste this URL into the box, then press **OK**/**Enter**: https://github.com/pwntester/codeql_grehack_workshop/releases/download/grehack-2021/apache_dubbo_2.7.8_db.zip
   - Click on the database name, and click **Set Current Database**.
 - Create a new file in the `workshop` directory called `UnsafeDeserialization.ql`.
 
